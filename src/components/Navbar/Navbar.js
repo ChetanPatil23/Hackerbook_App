@@ -6,7 +6,6 @@ import ImageLogos from "../ImageLogos";
 const Navbar = () => {
   return (
     <>
-    {/* This is a Navbar */}
       <div className="header">
         <div className="contactInfo">
           <span>
