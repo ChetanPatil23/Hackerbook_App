@@ -1,0 +1,62 @@
+.header {
+  height: 80px;
+  text-align: center;
+  background: black;
+  color: rgb(243, 243, 243);
+  padding: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h3 {
+  font-size: 22px;
+}
+
+.header h4 {
+  font-size: 18px;
+}
+
+.header ul li img {
+  border-radius: 50%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px;
+  padding-right: 100px;
+  box-shadow: 0px 7px 8px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 7px 8px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 7px 8px -8px rgba(0, 0, 0, 0.75);
+  z-index: 5;
+  background: white;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+
+li {
+  font-size: 16px;
+  font-weight: 450;
+  cursor: pointer;
+  color: rgb(110, 110, 110);
+}
+
+li:hover {
+  color: black;
+}
+
+.contactInfo span {
+  padding: 10px;
+  font-weight: 500;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: center;
+}
