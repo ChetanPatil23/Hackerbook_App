@@ -31,10 +31,10 @@ const HeroSlider = () => {
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active animate__animated animate__pulse animate__delay-1s animate__slower">
-          <HeroSliderInfo img={JobCourse}/>
-        </div>
-        <div class="carousel-item">
           <HeroSliderInfo img={CyberSecurity}/>
+        </div>
+        <div class="carousel-item animate__animated animate__fadeIn animate__delay-1s">
+          <HeroSliderInfo img={JobCourse}/>
         </div>
       </div>
       <button
